@@ -163,9 +163,6 @@ class CameraRoll {
     if (!params.assetType) {
       params.assetType = ASSET_TYPE_OPTIONS.All;
     }
-    if (!params.groupTypes) {
-      params.groupTypes = GROUP_TYPES_OPTIONS.All;
-    }
     if (arguments.length > 1) {
       console.warn(
         'CameraRoll.getPhotos(tag, success, error) is deprecated.  Use the returned Promise instead',
